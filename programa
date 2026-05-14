@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
    int i, vector [7] = {3,6,9,12,15,18,21}; 
    int *ptr; 
@@ -9,7 +8,7 @@ int main() {
    {
    
     printf ("El vector es: %d ", vector [i]); 
-    printf ("%p\n", ptr); 
+    printf ("%d\n", *(ptr++)); 
    }
     
 
