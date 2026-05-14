@@ -9,8 +9,9 @@ int main() {
    
     printf ("El vector es: %d ", vector [i]); 
     printf ("%d\n", *(ptr++)); 
+    printf ("Muy bien"); 
    }
-    
+   
 
     return 0;
 }
